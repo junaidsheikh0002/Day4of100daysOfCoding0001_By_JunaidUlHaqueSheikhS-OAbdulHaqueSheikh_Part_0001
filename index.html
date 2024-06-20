@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <style>
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="radio"],
+        input[type="date"] {
+            border: 1px solid #000;
+            margin: 5px;
+            border-radius: 5px;
+            height: 20px;
+        }
+        
+        .form-container {
+            border: 2px solid #000;
+            width: 300px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <section id="title">
+            <h1>Account Sign Up</h1>
+        </section>
+        <div class="form-container">
+            <form action="#" method="post">
+                <div class="form-details">
+                    <label>First Name: </label>
+                    <br>
+                    <input type="text" name="first_name" placeholder="Enter First name here" />
+                    <br>
+                </div>
+                <div class="form-details">
+                    <label>Last Name: </label>
+                    <br>
+                    <input type="text" name="last_name" placeholder="Enter Last name here" />
+                    <br>
+                </div>
+                <div class="gender">
+                    <label>Male:</label>
+                    <input type="radio" name="Gender" value="Male">
+                    <label>Female:</label>
+                    <input type="radio" name="Gender" value="Female">
+                    <label>Other:</label>
+                    <input type="radio" name="Gender" value="Other">
+                    <br>
+                </div>
+                <div class="DOB">
+                    <label>Date of Birth: </label>
+                    <br>
+                    <input type="date" name="dob" />
+                    <br>
+                </div>
+                <div class="location">
+                    <label>Location: </label>
+                    <br>
+                    <input type="text" name="location">
+                    <br>
+                </div>
+                <br>
+                <div id="btn">
+                    <button type="submit">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>
